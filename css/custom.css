@@ -1,0 +1,166 @@
+/* Main body */
+body {
+  color: #FFF;
+  font-size: 16px;
+  padding-top: 65px;
+
+}
+
+body, h1, h2, h3 {
+/*  font-family: 'Signika', sans-serif;*/
+font-family: 'Bangers', cursive;
+}
+
+.btn-custom {
+  color: #FFF;
+  border-color: #cccccc;
+}
+
+.btn-custom:hover {
+  color: #FFF39F;
+  }
+
+/* Navbar Stuff */
+
+.navbar {
+  padding: .5em;
+}
+.navbar-inverse {
+    background-color: #C44E44;
+    border-bottom: 0;
+}
+
+.navbar-inverse .navbar-nav a, .navbar-brand {
+  color: #FFF !important;
+}
+
+.navbar-inverse .navbar-nav li:hover {
+  background-color: #8f352d;
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+          transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+/* Section Colors */
+.bg-darkgreen, .bg-overdone, .bg-widow {
+  background-image: url("../img/adinkra_pattern.png");
+}
+
+.bg-darkgreen {
+  background-color: #679180;
+}
+
+.bg-overdone {
+  background-color: #918067;
+}
+
+.bg-widow {
+  background-color: #776C5C;
+}
+
+.bg-volcanoland {
+  background-color: #C44E44;
+}
+
+.bg-bubblegum {
+  background-color: #E44F60;
+}
+
+/* Text colors */
+.text-dark {
+  color: #000;
+}
+
+/* Carousel Stuff */
+.carousel img {
+  max-height: 700px;
+}
+.caption-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#register_box {
+  padding: 1em;
+  text-align: center;
+}
+
+#carousel_bottom {
+  padding: 2em 0;
+  color: #000;
+}
+
+/* Section Stuff */
+
+.top-buffer { margin-top:2em; }
+.bottom-buffer { margin-bottom:2em; }
+
+/* add the section class to a section to give it padding */
+.section {
+  padding: 6em 0;
+}
+
+section a {
+  color: #FFF39F;
+}
+
+/* this adds a > before links only in certain section */
+section.section a::before{
+  content: "> ";
+}
+
+.section-header {
+  font-size: 3em;
+  margin: 0 0 1em 0;
+}
+
+#map-box {
+  position: relative;
+}
+
+#map {
+  width: 100%;
+}
+
+.location-info {
+  position: absolute;
+  width: 35%;
+  z-index: 100;
+  top: 0;
+  padding: 1em;
+  background-color: #918067;
+  display: block;
+  }
+
+/* Footer Stuff */
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer ul li a {
+  color: #FFF;
+}
+
+/* Media Queries */
+@media (max-width: 990px) {
+  .people-row div:nth-child(2n+1) {
+    clear: both;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .people-row img {
+    max-width: 200px;
+  }
+
+}
